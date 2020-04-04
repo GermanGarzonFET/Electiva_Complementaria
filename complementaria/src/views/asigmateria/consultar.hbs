@@ -1,0 +1,24 @@
+<br>
+<h3>
+    Tabla de asignar materia
+</h3>
+<br>
+<div class="row">
+    <div class="col-2"></div>
+        <div class="col-2 border-left">id_Amd</div>
+        <div class="col-2 border-left">id_docente</div>
+        <div class="col-2 border-left">id_materia</div>
+        <div class="col-2 border-left">id_periodo</div>
+    <div class="col-2 border-left "></div>
+</div>
+<br>
+{{#each asig}}
+<div class="row">
+    <div class="col-2"></div>
+        <div class="col-2 border-top">{{id_amd}}</div>
+        <div class="col-2 border-top">{{id_docente}}</div>
+        <div class="col-2 border-top">{{id_materia}}</div>
+        <div class="col-2 border-top">{{id_periodo}}</div>
+    <div class="col-2  "></div>
+</div>
+{{/each}}

@@ -1,0 +1,25 @@
+
+<br>
+<h3>
+    Tabla de docentes
+</h3>
+<br>
+<div class="row">
+    <div class="col-2"></div>
+        <div class="col-2 border-left">id_docentes</div>
+        <div class="col-2 border-left">nombre</div>
+        <div class="col-2 border-left">edad</div>
+        <div class="col-2 border-left">correo</div>
+    <div class="col-2 border-left "></div>
+</div>
+<br>
+{{#each doc}}
+<div class="row">
+    <div class="col-2"></div>
+        <div class="col-2 border-top">{{id_docentes}}</div>
+        <div class="col-2 border-top">{{nombre}}</div>
+        <div class="col-2 border-top">{{edad}}</div>
+        <div class="col-2 border-top">{{correo}}</div>
+    <div class="col-2  "></div>
+</div>
+{{/each}}

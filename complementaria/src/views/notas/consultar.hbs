@@ -1,0 +1,27 @@
+
+<br>
+<h3>
+    Tabla de Notas
+</h3>
+<br>
+<div class="row">
+    <div class="col-1"></div>
+        <div class="col-2 border-left">id_notas</div>
+        <div class="col-2 border-left">id_docente</div>
+        <div class="col-2 border-left">id_materia</div>
+        <div class="col-2 border-left">nota</div>
+        <div class="col-2 border-left">id_periodo</div>
+    <div class="col-1 border-left "></div>
+</div>
+<br>
+{{#each not}}
+<div class="row">
+    <div class="col-1"></div>
+        <div class="col-2 border-top">{{id_notas}}</div>
+        <div class="col-2 border-top">{{id_docente}}</div>
+        <div class="col-2 border-top">{{id_materia}}</div>
+        <div class="col-2 border-top">{{nota}}</div>
+        <div class="col-2 border-top">{{id_periodo}}</div>
+    <div class="col-1"></div>
+</div>
+{{/each}}

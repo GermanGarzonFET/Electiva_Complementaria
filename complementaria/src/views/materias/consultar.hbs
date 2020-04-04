@@ -1,0 +1,21 @@
+
+<br>
+<h3>
+    Tabla de materias
+</h3>
+<br>
+<div class="row">
+    <div class="col-2"></div>
+        <div class="col-4 border-left">id_materia</div>
+        <div class="col-4 border-left">materia</div>
+    <div class="col-2 border-left "></div>
+</div>
+<br>
+{{#each mat}}
+<div class="row">
+    <div class="col-2"></div>
+        <div class="col-4 border-top">{{id_materia}}</div>
+        <div class="col-4 border-top">{{materia}}</div>
+    <div class="col-2  "></div>
+</div>
+{{/each}}
